@@ -12,5 +12,5 @@ def first_wa(array)
 end
 
 def remove_non_strings(array)
-  array.delete {|word| word.exclude? " "}
+  array.delete {|word| word.exclude? 'string'}
 end
