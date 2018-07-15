@@ -9,4 +9,5 @@ end
 
 def first_wa(array)
   array.all? {|word| word.start_with? "wa"}
+  return array
 end
