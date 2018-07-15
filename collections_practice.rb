@@ -9,6 +9,5 @@ end
 
 def first_wa(array)
   array.first {|word| word.start_with? "wa"}
-  array.first
 
 end
