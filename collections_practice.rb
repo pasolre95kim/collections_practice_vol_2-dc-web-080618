@@ -8,6 +8,7 @@ def contain_a(array)
 end
 
 def first_wa(array)
-  array.select {|word| word.start_with? "wa"}.shift
+  array.select {|word| word.start_with? "wa"}
+  array.first
 
 end
