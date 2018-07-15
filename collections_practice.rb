@@ -9,5 +9,7 @@ end
 
 def first_wa(array)
   array.find {|word| word[0..1] == "wa"}
-
 end
+
+def remove_non_strings(array)
+  
